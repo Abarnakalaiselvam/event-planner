@@ -1,0 +1,137 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+   
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<style>
+.container {
+  position: relative;
+  float:left;
+  margin-left:100px;
+  margin-top:50px;
+  
+  
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200x;
+  width: 300px;
+  opacity: 0.3;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  width: 300px;
+  height: 200px;
+}
+
+.text {
+  color: gold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+body {
+ background-image: url("back.jpg");
+ background-color: #cccccc;
+}
+</style>
+</head>
+<body>
+<div class="bg-div">
+ 
+   
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+			<img class="logo" src="logo.png" width="130" height="130" alt="align box" >
+            <li><a href="event.html">Events</a></li>
+            <li><a href="login1.html">Login</a></li>
+        </ul>
+    </nav>
+	
+</div>
+
+<a target="_blank" href="userlogin.html">
+<div class="container">
+  <img src="h.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Birthday</div>
+  </div>
+</div>
+</a>
+
+
+<a target="_blank" href="userlogin.html">
+<div class="container">
+  <img src="wed.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Wedding</div>
+  </div>
+</div>
+</a>
+
+
+<a target="_blank" href="userlogin.html">
+<div class="container">
+  <img src="engagement.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Engagement</div>
+  </div>
+</div>
+</a>
+
+
+<a target="_blank" href="userlogin.html">
+<div class="container">
+  <img src="photo.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Photograph</div>
+  </div>
+</div>
+</a>
+
+<a target="_blank" href="userlogin.html">
+<div class="container">
+  <img src="o.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Other Events</div>
+  </div>
+</div>
+</a>
+<a target="_blank" href="userlogin.html">
+<div class="container">
+  <img src="food.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Food</div>
+  </div>
+</div>
+</a>
+</body>
+</html>
+
+
+
+
